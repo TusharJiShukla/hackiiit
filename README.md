@@ -40,7 +40,8 @@ root/ ├── backend/ │ ├── controllers/ │ ├── models/ │ �
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+  git clone https://github.com/TusharJiShukla/hackiiit.git
+  
 Install backend dependencies:
 cd backend
 npm install
@@ -54,11 +55,11 @@ npm install
 Run frontend and backend servers:
 # In one terminal
 cd backend
-node server.js
+npm run dev
 
 # In another terminal
 cd frontend
-npm start
+npm run dev
 
 
 📌 To-Do / Future Improvements
@@ -72,6 +73,5 @@ Improve UI with animations/responsiveness
 
 👨‍💻 Developed By
 Tushar Shukla & Team ❤️
-
-
-Would you like me to generate this file directly and send it as a `.md` file or paste it into your project folder directly?
+(💡 My Contribution:
+I primarily worked on integrating a FastAPI ML model with the backend (Express.js & Node.js) and ensured proper data flow with React.js (frontend) and MySQL (database).)
